@@ -1,0 +1,38 @@
+class card():
+    def __init__(self,imageUrl,price,rating,description,deliveryWithin,comments,brandName):
+        self.image=imageUrl
+        self.cost=price
+        self.stars=rating
+        self.information=description
+        self.order=deliveryWithin
+        self.review=comments
+        self.brand=brandName
+
+laptop=card("dummy url1",50000,5,"maxbook","2weeks","this is gud product","apple")
+print(laptop.image)
+print(laptop.cost)
+print(laptop.stars)
+print(laptop.information)
+print(laptop.order)
+print(laptop.review)
+print(laptop.brand)
+
+
+mobile=card("dummy url2",50000,5,"maxbook","2weeks","this is gud product","apple")
+print(mobile.image)
+print(mobile.cost)
+print(mobile.stars)
+print(mobile.information)
+print(mobile.order)
+print(mobile.review)
+print(mobile.brand)
+
+
+smartwatch=card("dummy url3",50000,5,"maxbook","2weeks","this is gud product","apple")
+print(smartwatch.image)
+print(smartwatch.cost)
+print(smartwatch.stars)
+print(smartwatch.information)
+print(smartwatch.order)
+print(smartwatch.review)
+print(smartwatch.brand)
