@@ -15,9 +15,9 @@ print(store)
 allkeys=store.keys()
 print(allkeys)
 
-
+#for each loop
 for ele in allkeys:
-    print(ele)
+    print(ele,store[ele])
 
 for ch in "abcde":
     print(ch)
