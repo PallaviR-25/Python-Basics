@@ -1,25 +1,27 @@
- n=56
+# print from 56 to 97
+n=56
  while(n<98):
     print(n)
     n=n+1
-
+# print from 1225 to 995
  n=1225
  while(n>994):
      print(n)
      n=n-1
 
-
+#print 5 table from 5 to 50
  n=1
  while(n<=10):
      print(5*n)
      n=n+1
 
-
+#print 7 table in reverse order 70 to 7
  n=10
  while(n>=1):
     print(7*n)
      n=n-1
 
+# print even num from 12 to 56 
 n=12
 while(n<=56):
     if n%2==0:
