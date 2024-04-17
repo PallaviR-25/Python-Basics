@@ -1,0 +1,10 @@
+def findGreatestElement(numbers):
+    result=0
+    n=len(num)
+    for index in range(n):
+        if num[index]>result:
+           result=num[index]
+    return result
+num=[12,23,45,56,67,89,100,245]
+result=findGreatestElement(num)
+print("Greatest element is",result)
