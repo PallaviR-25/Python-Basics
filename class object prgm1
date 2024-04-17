@@ -1,0 +1,27 @@
+class Box:
+    def __init__(self,currName,currRollNum,currdsMarks,currosMarks,currjavaMarks,currdsdcoMarks,currmathMarks,currRprogrammingMarks):
+        self.name=currName
+        self.rollNumber=currRollNum
+        self.dsaMarks=currdsMarks
+        self.osMarks=currosMarks
+        self.javaMarks=currjavaMarks
+        self.dsdscoMarks=currdsdcoMarks
+        self.mathMarks=currmathMarks
+        self.RprogrammingMarks=currRprogrammingMarks
+
+#object creation
+student1 = Box("pallavi",42,89,76,60,65,75,80)
+print(student1.name)
+print(student1.rollNumber)
+print(student1.dsaMarks)
+
+student2 = Box("chandu",42,89,76,65,70,75,80)
+print(student2.name)
+print(student2.rollNumber)
+print(student2.osMarks)
+
+student3 = Box("puri",42,65,77,90,70,75,80)
+print(student3.name)
+print(student3.rollNumber)
+print(student3.osMarks)
+
